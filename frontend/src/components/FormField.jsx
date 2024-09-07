@@ -1,4 +1,4 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
 
 const FormField = ({labelName, type, name, placeholder, value, handleChange, isSupriseMe, handleSupriseMe}) => {
   return (

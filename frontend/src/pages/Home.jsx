@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+/* eslint-disable react/prop-types */
+import { useState, useEffect } from 'react'
 import { Card, Loader, FormField } from "../components/index.js"
 
 const RenderCards = ({ data, title }) => {
